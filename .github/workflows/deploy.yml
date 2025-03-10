@@ -11,5 +11,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+
       - name: Deploy to Render
-        run: curl -X POST https://api.render.com/deploy/srv-你的服務ID?key=你的API密鑰
+        run: curl -X POST https://api.render.com/deploy/srv-cv7fuot6l47c73b5lnp0?key=rnd_f5iX07JuyKWeTIWNWWq5cAd6IbTw
